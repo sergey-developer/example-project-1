@@ -1,0 +1,113 @@
+{
+  "photoUploadModal": {
+    "title": "Upload new photos",
+    "cancelBtnLabel": "Cancel"
+  },
+  "changeLocationModal": {
+    "title": "Edit Location",
+    "useAddressBtnLabel": "Use this address as main location",
+    "workingHoursLabel": "Working hours:",
+    "socialLinkLabel": "Social links:",
+    "titleField": {
+      "label": "Location Title",
+      "placeholder": "Location Title"
+    },
+    "addressNote": {
+      "label": "Note to address",
+      "placeholder": "Note to address"
+    },
+    "location": {
+      "label": "Location Address",
+      "placeholder": "Location Address"
+    },
+    "phoneField": {
+      "label": "Phone:",
+      "placeholder": "Phone"
+    },
+    "faxField": {
+      "label": "Fax:",
+      "placeholder": "Fax"
+    },
+    "emailField": {
+      "label": "Email:",
+      "placeholder": "Email"
+    },
+    "websiteField": {
+      "label": "Website:",
+      "placeholder": "Website"
+    },
+    "facebookField": {
+      "placeholder": "Facebook URL"
+    },
+    "instagramField": {
+      "placeholder": "Instagram URL"
+    },
+    "twitterField": {
+      "placeholder": "Twitter URL"
+    },
+    "linkedInField": {
+      "placeholder": "LinkedIn URL"
+    },
+    "whatsAppField": {
+      "placeholder": "WhatsApp number"
+    },
+    "redditField": {
+      "placeholder": "Reddit URL"
+    },
+    "langInput": {
+      "label": "Languages:",
+      "placeholder": "Languages"
+    },
+    "acceptingPatientRadio": {
+      "label": "Accepting new patients"
+    },
+    "finishEditBtnLabel": "Finish edit",
+    "cancelBtnLabel": "Cancel",
+    "hideMapLabel": "Hide Map",
+    "viewInMapLabel": "View In Map",
+    "errors": {
+      "ADDRESS_NOT_FULL": "Please provide full address",
+      "changeRegionError": "Sorry, you can't change the Region. Your address should be in {{region}}"
+    }
+  },
+  "setMainLocation": {
+    "title": "Are you sure you want to change the main location?",
+    "subTitle": "Only one location can be designated as your main location",
+    "acceptBthLabel": "Yes, Change Location",
+    "cancelBtnLabel": "Cancel"
+  },
+  "cropImageModal": {
+    "cancelBtnLabel": "Cancel",
+    "cropBtnLabel": "Crop and save"
+  },
+  "acceptPublishProcessModal": {
+    "title": "We are about to start the process of publishing your changes.",
+    "subTitle": "Moderation of the publication may take several hours. <0></0> You will not be able to edit this profile.",
+    "okBtnLabel": "Ok",
+    "cancelBthLabel": "Cancel"
+  },
+  "deleteLocationAccept": {
+    "title": "Are you sure you want to delete location?",
+    "subTitle": "This action cannot be undone",
+    "deleteBtnLabel": "Delete",
+    "cancelBtnLabel": "Cancel"
+  },
+  "inModeration": {
+    "title": "You cannot make any changes while the status is \"on moderation\".",
+    "okBtnLabel": "Got it!"
+  },
+  "uploadFileFailedModal": {
+    "title": "Failed to upload file",
+    "addPhotoLabel": "Add another photos",
+    "cancelLabel": "Cancel",
+    "errors": {
+      "MAX_FILE_SIZE": "Size allowed up to 10 Mb",
+      "INVALID_FILE_TYPE": "Invalid file format"
+    }
+  },
+  "inviteReferralsModal": {
+    "title": "Send invite to {{email}}",
+    "okBtnLabel": "Ok",
+    "cancelBthLabel": "Cancel"
+  }
+}

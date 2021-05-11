@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "showTranslations": "Show translations",
+    "hideTranslations": "Hide translations",
+
+    "provider": "Provider"
+  },
+  "imageAvatar": {
+    "avatarHint": "Drop avatar <0 /> or <1>browse</1>"
+  },
+  "imageCover": {
+    "infoHint": "Upload business logo <0 />Recommended image size 180х180 px",
+    "coverHint": "Drop your cover photo or <0>browse</0>",
+    "coverInfoHint": "Upload cover photo <0/> Recommended image size 800х350 px"
+  },
+  "dropImageHint": "Drop your photos here or <0>upload</0> them from your device",
+  "uploadingProgressLabel": "Uploading...",
+  "dayOfWeek": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "pagination": {
+    "previousBtnLabel": "Previous page",
+    "nextPageBtnLabel": "Next Page"
+  }
+}

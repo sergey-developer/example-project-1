@@ -1,0 +1,113 @@
+{
+  "pageTitle": "Main info",
+  "name": "Name",
+  "categoryLabel": "Category",
+  "profileTypeLabel": "Profile type",
+  "detailsSectionTitle": "Details",
+  "treatmentLabel": "Treatment",
+  "conditionLabel": "Condition",
+  "servicesLabel": "Services",
+  "educationLabel": "Education",
+  "awardsLabel": "Awards",
+  "affiliatesLabel": "Affiliates",
+  "additionalInfoSectionLabel": "Additional info",
+  "editBtnLabel": "Edit profile",
+  "finishEditBthLabel": "Finish edit",
+  "profileTypeLabels": {
+    "organizationLabel": "Organization",
+    "selfEmployedLabel": "Self-employed"
+  },
+  "languagesInput": {
+    "label": "Languages",
+    "placeholder": "Languages"
+  },
+  "specialitiesInput": {
+    "label": "Specialities",
+    "placeholder": "Specialities"
+  },
+  "insuranceInput": {
+    "label": "Insurance",
+    "placeholder": "Insurance"
+  },
+  "overviewTextArea": {
+    "label": "Overview",
+    "placeholder": "Overview"
+  },
+  "serviceItem": {
+    "addServiceBtnLabel": "Add new service",
+    "nameField": {
+      "placeholder": "Service"
+    },
+    "descriptionField": {
+      "placeholder": "Description"
+    }
+  },
+  "educationItem": {
+    "addEducationBtnLabel": "Add new education",
+    "degreeField": {
+      "placeholder": "Degree",
+      "options": [
+        "AA",
+        "AS",
+        "AAS",
+        "BA",
+        "BSc",
+        "BFA",
+        "BAS",
+        "BBA",
+        "BArch",
+        "MA",
+        "MS",
+        "MBA",
+        "MFA",
+        "LLM",
+        "MPub",
+        "PhD",
+        "JD",
+        "MD",
+        "DDS",
+        "EdD"
+      ]
+    },
+    "graduatedField": {
+      "placeholder": "Year"
+    },
+    "schoolNameField": {
+      "placeholder": "The name of educational institution",
+      "options": [
+        "Tufts University School of Medicine",
+        "Hahnemann University",
+        "Mount Sinai School of Medicine",
+        "Albert Einstein College of Medicine",
+        "Siddhartha Medical College",
+        "McGill University",
+        "Ahvaz Jundishapour University of Medical Sciences"
+      ]
+    }
+  },
+  "awardItem": {
+    "addNewAwardBtnLabel": "Add new award",
+    "nameField": {
+      "placeholder": "Award"
+    },
+    "yearField": {
+      "placeholder": "Year"
+    }
+  },
+  "affiliatesItems": {
+    "addNewAffiliateBtnLabel": "Add new affiliate",
+    "nameField": {
+      "placeholder": "Affiliate",
+      "option": [
+        "Mount Sinai Beth Israel",
+        "Mount Sinai Morningside and Mount Sinai West",
+        "Mount Sinai Queens",
+        "The Mount Sinai Hospital",
+        "Moffitt Cancer Center"
+      ]
+    },
+    "websiteField": {
+      "placeholder": "Website URL"
+    }
+  }
+}

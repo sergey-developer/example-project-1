@@ -1,0 +1,38 @@
+{
+  "dashboardPage": {
+    "title": "Dashboard"
+  },
+  "changeEmailPage": {
+    "title": "Please enter your new email address",
+    "subTitle": "Your current email: {{currentEmail}}",
+    "emailLabel": "Email",
+    "changeEmailLabel": "Change Email",
+    "linkSendInfoMessage": "A verification link has been sent to this email address. Please follow the link to confirm your new email address. Or click <0>HERE</0> to change email",
+    "errors": {
+      "emailAlreadyTaken": "This e-mail is already taken",
+      "emailWasNotUpdates": "Email was not updated"
+    }
+  },
+  "changePasswordPage": {
+    "title": "Change Password",
+    "acceptMessage": "Your password was successfully updated!",
+    "changePasswordBtnLabel": "Change Password",
+    "currentPasswordField": {
+      "label": "Current Password",
+      "placeholder": "Your current password"
+    },
+    "newPasswordField": {
+      "label": "New Password",
+      "placeholder": "Enter new password"
+    },
+    "confirmPassword": {
+      "label": "Confirm Password",
+      "placeholder": "Confirm your password"
+    },
+    "errors": {
+      "requiredField": "Required field",
+      "passwordIsNotMatched": "Passwords isn`t matched",
+      "passwordIsNotCorrect": "Password isn`t correct"
+    }
+  }
+}

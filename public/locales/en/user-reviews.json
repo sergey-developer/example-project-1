@@ -1,0 +1,40 @@
+{
+  "pageTitle": "Reviews",
+  "selectReviewsBtn": "Select reviews",
+  "cancelSelectReviewsBtn": "Cancel selection",
+  "toolbar": {
+    "searchField": "Search",
+    "deleteBtn": "Delete selected"
+  },
+  "review": {
+    "showAll": "Show all",
+    "hideAll": "Hide all",
+    "status": {
+      "published": "Published",
+      "moderation": "The review is in moderation. This usually takes 48 hours"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "reply": {
+    "title": "Reply from Provider"
+  },
+  "modals": {
+    "delete": {
+      "title": "Are you sure you want to delete {{review}}?",
+      "subTitle": "This action cannot be undone",
+      "review": "the review",
+      "review_plural": "these reviews",
+      "deleteBtn": "Delete",
+      "cancelBtn": "Cancel"
+    },
+    "edit": {
+      "title": "Edit review",
+      "cancelBtn": "Cancel",
+      "saveBtn": "Save"
+    }
+  },
+  "noReviews": "You don't have any reviews yet"
+}

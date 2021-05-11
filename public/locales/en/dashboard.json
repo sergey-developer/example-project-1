@@ -1,0 +1,72 @@
+{
+  "pageTitle": "Dashboard",
+  "common": {
+    "seeAllLabel": "See all"
+  },
+  "reviewAndRatingCard": {
+    "title": "Reviews & rating",
+    "reviewsLabel": "{{count}} reviews",
+    "replyBtnLabel": "Reply",
+    "skipBtnLabel": "Skip"
+  },
+  "integrationCard": {
+    "title": "Integration",
+    "addLabel": "Add",
+    "addedLabel": "Added",
+    "showAllLabel": "Show all",
+    "integrationServices": [
+      {
+        "name": "Telemedicine",
+        "info": "Get professional advice from the comfort of your home"
+      },
+      {
+        "name": "BillPay",
+        "info": "Get professional advice from the comfort of your home"
+      },
+      {
+        "name": "Book appointment",
+        "info": "Get professional advice from the comfort of your home"
+      }
+    ]
+  },
+  "photosCard": {
+    "title": "Photos",
+    "allPhotoLabel": "Manage photos",
+    "moreLabel": "more",
+    "emptyTitle": "You don't have photos of your practice yet",
+    "emptyAdvice": "Add photos of the process of your work, photos of locations, and satisfied customers to attract new clients."
+  },
+  "inviteCard": {
+    "title": "Invite your friends and colleagues",
+    "info": "Invite your friends and colleagues to come check out ExampleProject and get rewarded",
+    "referalLinkLabel": "Get referal link"
+  },
+  "statisticCard": {
+    "title": "Your statistic",
+    "profileOpenLabel": "Total number of user(s) who have visited your profile since you signed-up",
+    "averageTimeLabel": "Average time spend by users on your profile",
+    "linkClickLabel": "Number of times the profile was marked as favorite",
+    "displayedProfileLabel": "Number of time my profile has appeared in a search this week or month "
+  },
+  "fillInfoCard": {
+    "title": "Fill info about provider",
+    "profileFillLabel": "of your profile is filled",
+    "improiveLabel": "Improve the quality of your profile by...",
+    "improiveItems": {
+      "addAwardsLabel": "Add Awards",
+      "addWorkingLabel": "Add Working hours",
+      "addSocialLink": "Add Social links",
+      "addServices": "Add Services"
+    }
+  },
+  "activityCard": {
+    "title": "Your activity"
+  },
+  "profileUrlCard": {
+    "title": "Get custom url for your profile",
+    "buttonLabel": "Get link"
+  },
+  "favoriteCard": {
+    "title": "Favorite"
+  }
+}

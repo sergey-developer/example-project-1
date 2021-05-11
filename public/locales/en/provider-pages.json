@@ -1,0 +1,160 @@
+{
+  "dashboardPage": {
+    "title": "Dashboard"
+  },
+  "providerPhotos": {
+    "title": "Photos",
+    "uploadBtnLabel": "Upload"
+  },
+  "becomeProviderPage": {
+    "title": "How to become a provider on example-project",
+    "subTitle": "Click below to find your provider profile. If it's not available, click on \"Create my provider profile\" to get started. ",
+    "findProfileBtnLabel": "Find My Provider Profile",
+    "createProfileBtnLabel": "Create My Provider Profile"
+  },
+  "bankingPage": {
+    "title": "Banking",
+    "editBtnLabel": "Edit Banking",
+    "finishEditBtnLabel": "Finish Edit",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "Name"
+    },
+    "addressInput": {
+      "label": "Bank Address",
+      "placeholder": "Bank Address"
+    },
+    "swiftInput": {
+      "label": "SWIFT",
+      "placeholder": "SWIFT"
+    },
+    "accountNumberInput": {
+      "label": "Account Number",
+      "placeholder": "Account Number"
+    },
+    "routingNumberInput": {
+      "label": "Routing Number",
+      "placeholder": "Routing Number"
+    },
+    "accountHolderNameInput": {
+      "label": "Account Holder Name",
+      "placeholder": "Account Holder Name"
+    }
+  },
+  "createProviderPage": {
+    "title": "Create provider profile",
+    "backBtnLabel": "Back",
+    "nextBtnLabel": "Next",
+    "providerTypeLabel": "Provider type",
+    "providerInfoLabel": "Please enter info about provider",
+    "selectCategoryTitle": "Select main category",
+    "stepLabel": "Step {{count}}",
+    "seeProfileLabel": "See my profile",
+    "successPageTitle": "Your profile has been successfully created",
+    "successPageSubtitle": "We will now complete the final stage of our verification process and get back to you within 48 hours. Until then, feel free to manage your profile so that any changes can be published once the verification is complete.",
+    "claimProfileBtnLabel": "Claim This Profile",
+    "alreadyClaimedLabel": "Already claimed",
+    "ifOverExistsProviderLabel": "If this is your provider, write to us on <0>{{email}}</0>",
+    "organizationLabel": "Organization",
+    "selfEemployedLabel": "Self-employed",
+    "similarItemsTitle": "We found several providers with similar names",
+    "createSteps": ["Address", "Main category", "Provider name", "Additional info"],
+    "locationField": {
+      "label": "Location Address",
+      "placeholder": "Location Address"
+    },
+    "providerNameField": {
+      "label": "Provider name",
+      "placeholder": "Provider name"
+    },
+    "npiField": {
+      "label": "NPI",
+      "placeholder": "NPI"
+    },
+    "specialitiesField": {
+      "label": "Specialities",
+      "placeholder": "Specialities"
+    },
+    "phoneNumberField": {
+      "label": "Phone number",
+      "placeholder": "Phone number"
+    },
+    "emailField": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "errors": {
+      "REGION_IS_NOT_EXISTS": "Sorry, this region is not available right now",
+      "ADDRESS_NOT_FULL": "Please provide full address",
+      "PROVIDER_WITH_NPI_EXISTS": "A provider with this NPI already exists"
+    }
+  },
+  "publishProviderHint": {
+    "providerChangeLabel": "Provider was changed:",
+    "wouldYouLikeLabel": "Would you like to:",
+    "publishUpdateBtnLabel": "Publish updates",
+    "onModerationLabel": "On moderation",
+    "discardBtnLabel": "Discard",
+    "statusLabel": "Status: ",
+    "ownershipPendingMessage": "Pending moderation approval for the right to publish changes of this provider",
+    "publishValitationTitle": "To publish, you need:",
+    "addLocationLabel": "Add location",
+    "addInfoLabel": "Add information about: ",
+    "nameLabel": "Name",
+    "overviewLabel": "Overview",
+    "serviceLabel": "Services",
+    "educationLabel": "Education",
+    "awardsLabel": "Awards",
+    "affiliatesLabel": "Affiliates"
+  },
+  "locationsPage": {
+    "title": "Locations",
+    "addLocationBtnLabel": "Add Location",
+    "noLocationLabel": "No locations",
+    "sortByLabel": "Sort by",
+    "noDeleteHint": "You cannot delete this location. There must be at least one active location",
+    "okBtnLabel": "Got it!",
+    "card": {
+      "mainLocationLabel": "Main Location",
+      "acceptingPatientsLabel": "Accepting new patients",
+      "doesNotAcceptNewPatientsLabel": "Doesn't accept new patient at this time",
+      "editLocationLabel": "Edit Location",
+      "setAsMainLocationLabel": "Set as main Location",
+      "deleteLocationLabel": "Delete Location",
+      "languagesLabel": "Languages:",
+      "phoneLabel": "Phone:",
+      "faxLabel": "Fax:",
+      "emailLabel": "Email:",
+      "websiteLabel": "Website:",
+      "workingHoursLabel": "Working hours:",
+      "noInformationLabel": "No information",
+      "socialLinkLabel": "Social links:",
+      "hideContactsLabel": "Hide contacts",
+      "showContactsLabel": "Show contacts"
+    }
+  },
+  "referralsPage": {
+    "title": "Referrals",
+    "emptyMessage": "You don't have any referrals yet",
+    "addReferralsForm": {
+      "title": "New referral",
+      "nameInput": {
+        "placeholder": "First name"
+      },
+      "lastNameInput": {
+        "placeholder": "Last name"
+      },
+      "emailInput": {
+        "placeholder": "Email"
+      },
+      "submitBtnLabel": "Invite"
+    },
+    "item": {
+      "emailLabel": "Email",
+      "resendInviteLabel": "Resend invite",
+      "declineInviteLabel": "Decline invite",
+      "inviteSendLabel": "Invite send",
+      "inviteReceivedLabel": "Invite received"
+    }
+  }
+}

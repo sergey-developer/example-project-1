@@ -1,0 +1,31 @@
+{
+  "pageTitle": "Personal Info",
+  "editBtn": {
+    "default": "Edit profile",
+    "finishEdit": "Finish edit"
+  },
+  "fields": {
+    "fullName": {
+      "label": "Full Name",
+      "placeholder": "Your Full Name"
+    },
+    "zipCodeOrCity": {
+      "label": "Zip code or city",
+      "placeholder": "Enter zip code or city"
+    },
+    "dateOfBirth": {
+      "label": "Date of birth"
+    },
+    "email": {
+      "label": "E-mail",
+      "placeholder": "Your email"
+    },
+    "phoneNumber": {
+      "label": "Phone Number"
+    },
+    "insurance": {
+      "label": "Insurance",
+      "placeholder": "Find your insurance"
+    }
+  }
+}

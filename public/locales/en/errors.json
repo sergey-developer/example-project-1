@@ -1,0 +1,18 @@
+{
+  "profilePublishErrors": {
+    "NAME_NOT_FULL": "Please enter a Name. At least {{length}} symbols are required.",
+    "OVERVIEW_NOT_FULL": "Please fill in the Overview. At least {{length}} symbols are required.",
+    "SERVICE_NAME_NOT_FULL": "Please fill in the  Name of Service. At least {{length}} symbols are required.",
+    "SERVICE_DESCRIPTION_NOT_FULL": "Please fill in the Description. At least {{length}} symbols are required.",
+    "EDUCATION_DEGREE_NOT_FULL": "Please fill in the Degree. At least {{length}} symbols are required.",
+    "EDUCATION_SCHOOL_NAME_NOT_FULL": "Please fill in the Name of educational institution. At least {{length}} symbols are required.",
+    "EDUCATION_GRADUATED_YEAR_NOT_VALID": "Please fill in the Year",
+    "AWARDS_NAME_NOT_FULL": "Please fill in the Name.At least {{length}} symbols are required.",
+    "AWARDS_YEAR_NOT_VALID": "Please fill in the Year",
+    "AFFILIATE_NAME_NOT_FULL": "Please fill in the Name. At least {{length}} symbols are required."
+  },
+  "locationErrors": {
+    "needFillAddress": "Please fill in the Address",
+    "phoneRequire": "Please fill in the Phone number"
+  }
+}

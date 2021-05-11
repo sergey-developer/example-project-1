@@ -1,0 +1,9 @@
+{
+  "oidcClientId": "OCBrowserLocal",
+  "baseAuthApiUrl": "https://auth.example-project.site",
+  "baseFilesApiUrl": "http://file.example-project.site",
+  "baseProviderApiUrl": "https://provider.example-project.site",
+  "baseSearchApiUrl": "https://search.example-project.site",
+  "mainUrl": "https://example-project.site",
+  "baseReviewApiUrl": "https://review.example-project.site"
+}

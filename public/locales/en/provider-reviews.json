@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Reviews",
+  "toolbar": {
+    "searchField": "Search"
+  },
+  "review": {
+    "negative": "Negative review",
+    "actions": {
+      "replyBtn": "Reply",
+      "contactUser": "Contact User",
+      "contactModerator": "Contact Moderator"
+    }
+  },
+  "reply": {
+    "title": "Your reply",
+    "showAll": "Show all",
+    "hideAll": "Hide all",
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "modals": {
+    "sendBtn": "Send",
+    "cancelBtn": "Cancel",
+    "createReply": {
+      "title": "Reply",
+      "form": {
+        "title": "Provider reply",
+        "fields": {
+          "fullNamePlaceholder": "Full Name",
+          "commentPlaceholder": "Comment here"
+        },
+        "errors": {
+          "fullNameRequired": "Full name is required field",
+          "commentRequired": "Comment is required field"
+        },
+        "submitBtn": "Submit"
+      }
+    },
+    "editReply": {
+      "title": "Edit review",
+      "saveBtn": "Save"
+    },
+    "deleteReply": {
+      "title": "Are you sure you want to delete the reply?",
+      "subTitle": "This action cannot be undone",
+      "deleteBtn": "Delete"
+    },
+    "contactUser": {
+      "title": "Contact User"
+    },
+    "contactModerator": {
+      "title": "Contact Moderator"
+    },
+    "messageSent": {
+      "title": "Your message has been successfully sent. Please check your inbox",
+      "gotItBtn": "Got it!"
+    }
+  },
+  "noReviews": "You don't have any reviews yet"
+}

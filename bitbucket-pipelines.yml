@@ -1,0 +1,76 @@
+# Template docker-push
+
+# This template allows you to build and push your docker image to a Docker Hub account.
+# The workflow allows running tests, code linting and security scans on feature branches (as well as master).
+# The docker image will be validated and pushed to the docker registry after the code is merged to master.
+
+# Prerequisites: $DOCKERHUB_USERNAME, $DOCKERHUB_PASSWORD setup as deployment variables
+
+options:
+  docker: true
+  size: 2x
+
+definitions:
+  services:
+    docker:
+      memory: 4096
+  steps:
+    - step: &build-image
+        name: Build Docker image
+        image: atlassian/default-image:2
+        script:
+          - docker build -t "${DOCKER_REPO}/${GCLOUD_PROJECT}/${APP_NAME}:0.0.${BITBUCKET_BUILD_NUMBER}" .
+          - docker save --output tmp-image.docker "${DOCKER_REPO}/${GCLOUD_PROJECT}/${APP_NAME}:0.0.${BITBUCKET_BUILD_NUMBER}"
+        artifacts:
+          - tmp-image.docker
+        services:
+          - docker
+    - step: &push-gcp
+        name: Push to GCP registry
+        image: google/cloud-sdk:alpine
+        script:
+          - docker load --input ./tmp-image.docker
+          # Authenticating with the service account key file
+          #- echo $GCLOUD_API_KEYFILE | base64 -d > ./gcloud-api-key.json
+          - echo $GCLOUD_API_KEYFILE > ./gcloud-api-key.json
+          - cat ./gcloud-api-key.json
+          - gcloud auth activate-service-account --key-file gcloud-api-key.json
+          - gcloud config set project $GCLOUD_PROJECT
+          # Tag container & push
+          #- export TAG=$(echo "$BITBUCKET_TAG" | sed -e "s/v//g")
+          #- export SUFFIX=$([[ ! -z "$TAG" ]] && echo ":$TAG" || echo "")
+          #- export IMAGE_NAME=${DOCKER_REPO}/${GCLOUD_PROJECT}/demoapp:0.0.${BITBUCKET_BUILD_NUMBER}"
+          #- docker tag helloworld ${IMAGE_NAME}
+          # Login to google docker hub
+          - cat ./gcloud-api-key.json | docker login -u _json_key --password-stdin https://gcr.io
+          - docker push ${DOCKER_REPO}/${GCLOUD_PROJECT}/${APP_NAME}:0.0.${BITBUCKET_BUILD_NUMBER}
+    - step: &deploy-k8s
+        name: Deploy to k8s
+        image: google/cloud-sdk:alpine
+        script:
+          # Configure kubectl
+          - echo $GCLOUD_API_KEYFILE > ./gcloud-api-key.json
+          - gcloud auth activate-service-account --key-file gcloud-api-key.json
+          - gcloud config set project $GCLOUD_PROJECT
+          - gcloud components install kubectl
+          - gcloud container clusters get-credentials dev --zone us-central1-c --project ${GCLOUD_PROJECT}
+
+          # Deploy
+          - kubectl set image deployment/${APP_NAME} ${APP_NAME}=${DOCKER_REPO}/${GCLOUD_PROJECT}/${APP_NAME}:0.0.${BITBUCKET_BUILD_NUMBER}
+          - kubectl rollout restart deployment/${APP_NAME}
+
+pipelines:
+  #   tags:
+  #     v*:
+  #       - step: *build-image
+  #       - step: *push-gcp
+
+  branches:
+    test:
+      - step: *build-image
+      - step: *push-gcp
+      - step: *deploy-k8s
+#  pull-requests:
+#    '**':
+#      - step: *build-image
+#      - step: *push-gcp
