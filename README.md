@@ -14,7 +14,7 @@ The application already configured to use test Identity server instance (config 
 
 ### swagger-ui for example-project Providers API
 
-[Link](http://35.225.16.242:6002/swagger/index.html)
+[Link](http://example-project:6002/swagger/index.html)
 
 ## Deployment
 ### requirements
@@ -47,7 +47,7 @@ version: `14.15.5`
   "oidcClientId": "OCBrowserLocal",
   "baseAuthApiUrl": "https://auth-test.example-project.com",
   "baseFilesApiUrl": "http://file.example-project.site",
-  "baseProviderApiUrl": "http://35.225.16.242:6002"
+  "baseProviderApiUrl": "http://example-project:6002"
 }
 ```
 
